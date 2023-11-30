@@ -36,11 +36,11 @@ export default function Home() {
                   standars
                </p>
                <div className="flex flex-col gap-4 mt-6 sm:flex-row">
-                  <Link href={"/products"} className={buttonVariants()}>
+                  <Link href={"/products"} className={buttonVariants({ size: "lg" })}>
                      Browse Trending
                   </Link>
-                  <Button variant="ghost" className="">
-                     Our quality promise &rarr;
+                  <Button variant="ghost" size="lg">
+                     Our Quality Promise &rarr;
                   </Button>
                </div>
             </div>
