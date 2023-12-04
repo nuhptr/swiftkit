@@ -1,11 +1,11 @@
 import Image from "next/image"
+import Link from "next/link"
 import { ChevronDown } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 import { PRODUCT_CATEGORIES } from "@/constant"
 
 import { Button } from "./ui/button"
-import Link from "next/link"
 
 type Category = (typeof PRODUCT_CATEGORIES)[number]
 
